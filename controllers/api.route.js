@@ -4,7 +4,7 @@ const locationRoute = require("./location.route");
 
 module.exports = function(){
     router.use("/user", userRoute);
-    router.use("/location", locationRoute);
+   // router.use("/location", locationRoute);
 
     return router;
 
